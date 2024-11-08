@@ -1,0 +1,31 @@
+h1 {
+    font-size: 120px;
+    color: red;
+    text-align: center;
+}
+h2 {text-align: center;}
+
+img.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 350px;
+}
+img.logo1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 400px;
+    width: 350px;
+    transform: scaleX(-1);
+}
+.email-link {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+p {font-size: 80px;
+    color: rgb(5, 5, 5);
+    text-align: center;}
